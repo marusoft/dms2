@@ -1,0 +1,149 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Mynerve&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,500&family=Roboto+Mono:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500;700;900&family=Zeyada&display=swap'); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+a{
+  cursor: pointer;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+header {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 20px;
+}
+.logo-text {
+  font-size: 2rem;
+}
+
+.description-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
+.left-container {
+  text-align: center;
+  padding: 30px;
+  flex: 1;
+}
+
+.description-text {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+.description-text h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 52px;
+}
+.description-text p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.get-btn {
+  padding: 13px 23px;
+  background: #053582;
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.get-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+.right-container {
+  flex: 1;
+  padding: 30px;
+}
+.form-container {
+  background: #ffffff;
+  box-shadow: 3px -5px 40px rgba(205, 205, 212, 0.1);
+  border-radius: 20px;
+  padding: 20px;
+}
+progress {
+  width: 100%;
+}
+.form-text {
+  margin: 1rem 0rem;
+}
+.form-text h2 {
+  font-weight: 700;
+  font-size: 28px;
+  color: #393939;
+  margin-bottom: 0.4rem;
+}
+.form-text p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #404040;
+}
+input {
+  width: 100%;
+  margin-bottom: 0.9rem;
+  border: 1px solid #e2e2ea;
+  border-radius: 10px;
+  padding: 20px;
+}
+.name-input {
+  display: flex;
+  gap: 0.9rem;
+}
+.password {
+  position: relative;
+}
+.eye {
+  position: absolute;
+  top: 20px;
+  right: 12px;
+}
+
+.btn-text {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-text p {
+  margin-left: 2rem;
+}
+.btn-register {
+  padding: 13px 23px;
+  background: #053582;
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .description-container {
+    flex-direction: column;
+  }
+  .name-input {
+    flex-direction: column;
+  }
+  .term-condition p{
+    font-size: .8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .btn-text{
+    flex-direction: column;
+  }
+  .btn-text button{
+    margin-top: .4rem;
+  }
+}
