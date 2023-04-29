@@ -38,7 +38,7 @@
 }
 .icon-text {
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: #252525;
   opacity: 0.4;
 }
@@ -82,10 +82,10 @@ header {
   height: 12px;
   background: #34b53a;
   border-radius: 50%;
-  padding: 10px;
+  padding: 4px;
   position: absolute;
-  right: 0;
   bottom: 0;
+  right: 0;
 }
 .user-info {
   display: flex;
@@ -115,7 +115,11 @@ header {
   font-size: 28px;
   color: #171725;
 }
-
+.dashboard-content{
+  display: flex;
+  gap: 1rem
+  ;
+}
 
 @media (max-width: 600px) {
   .icon-text{

@@ -26,7 +26,7 @@ header {
 .description-container {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 3rem;
+  /* margin-top: 2rem; */
 }
 .left-container {
   text-align: center;
@@ -70,7 +70,7 @@ header {
   background: #ffffff;
   box-shadow: 3px -5px 40px rgba(205, 205, 212, 0.1);
   border-radius: 20px;
-  padding: 20px;
+  padding: 30px;
 }
 progress {
   width: 100%;
@@ -95,7 +95,7 @@ input {
   margin-bottom: 0.9rem;
   border: 1px solid #e2e2ea;
   border-radius: 10px;
-  padding: 20px;
+  padding: 15px;
 }
 .name-input {
   display: flex;
