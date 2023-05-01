@@ -12,6 +12,9 @@
   background-color: #fff;
   height: 100vh;
   padding: 2rem;
+  /* new fixes */
+  position: sticky;
+  top: 0;
 }
 .sidebar-content {
   margin-top: 2rem;
@@ -37,7 +40,8 @@
   color: #252525;
   opacity: 0.4;
 }
-.sidebar-list-item:hover, .sidebar-list-item img:hover  {
+.sidebar-list-item:hover,
+.sidebar-list-item img:hover {
   background: #e8f0fe;
   padding: 10px;
   border-radius: 20.0281px;
@@ -48,6 +52,8 @@
   flex: 80%;
   background-color: #e5e5e5;
 }
+
+/* NAVBAR */
 .navbar-container {
   background-color: #fff;
   padding: 1.5rem;
@@ -87,19 +93,19 @@
   bottom: 0;
   right: 0;
 }
+/* NAVBAR */
 
 .dashboard-analysis {
   padding: 1.5rem;
 }
-.card1{
+.left-card-content {
   background-color: #fff;
   margin-bottom: 1rem;
   padding: 20px;
 }
 
-
 @media (max-width: 600px) {
-  .sidebar-list-item a{
+  .sidebar-list-item a {
     display: none;
   }
 }
